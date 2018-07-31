@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wave.receiver.Fragments.Settingsinfo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/playback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/playback"
+            android:textSize="18dp" />
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/playback_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/playback"
+            android:text="All photos"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/shuffle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shuffle"
+            android:textSize="18dp" />
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/shuffle_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shuffle"
+            android:text="Off"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/transaction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transaction"
+            android:textSize="18dp" />
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/transaction_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/transaction"
+            android:text="10 Seconds"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/showtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showclock"
+            android:textSize="18dp" />
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/showtime_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/showtime"
+            android:text="Off"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/showconnection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Connection"
+            android:textSize="18dp" />
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/showconnection_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/showconnection"
+            android:text="On"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

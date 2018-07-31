@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/RelativeUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="51dp">
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="145dp"
+            android:text="@string/visit_url1"
+            android:textColor="@color/black"></com.example.wave.receiver.Fonts.TextViewFontStyle>
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/url2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/url"
+            android:layout_marginLeft="29dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/visit_Url2"
+            android:textColor="@color/black"></com.example.wave.receiver.Fonts.TextViewFontStyle>
+
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/textSerialnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/url2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:text="Here is your serial number"
+            android:textColor="#191919"
+            android:textSize="18dp"></com.example.wave.receiver.Fonts.TextViewFontStyle>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearSerialNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RelativeUrl"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/serialnumberfirstbox"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="22dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_box"
+            android:gravity="center"
+            android:text="1234"
+            android:textColor="#191919"
+            android:textSize="18dp"></com.example.wave.receiver.Fonts.TextViewFontStyle>
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/serialnumbersecondbox"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="22dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_box"
+            android:gravity="center"
+            android:text="5678"
+            android:textColor="#191919"
+            android:textSize="18dp"></com.example.wave.receiver.Fonts.TextViewFontStyle>
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/serialnumberthirdbox"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="22dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_box"
+            android:gravity="center"
+            android:text="1437"
+            android:textColor="#191919"
+            android:textSize="18dp"></com.example.wave.receiver.Fonts.TextViewFontStyle>
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/serialnumberfourthbox"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_box"
+            android:gravity="center"
+            android:text="7645"
+            android:textColor="#191919"
+            android:textSize="18dp"></com.example.wave.receiver.Fonts.TextViewFontStyle>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

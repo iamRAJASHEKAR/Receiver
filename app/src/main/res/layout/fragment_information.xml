@@ -1,0 +1,382 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wave.receiver.Fragments.Information">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+            <RelativeLayout
+                android:id="@+id/relativ_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name"
+                    android:textSize="18dp" />
+
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/name_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/name"
+                    android:text="@string/name_value"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name"
+                    android:text="@string/location"
+                    android:textSize="18dp" />
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/location_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/name"
+                    android:layout_toRightOf="@+id/location"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/location_value"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/model"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/location"
+                    android:text="@string/model"
+                    android:textSize="18dp" />
+
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/model_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/location"
+                    android:layout_toRightOf="@+id/model"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/model_value"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativ_name"
+                android:layout_marginTop="20dp">
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Username"
+                    android:textSize="18dp" />
+
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/username_values"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/username"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/serial_value"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/serialnumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/username"
+                    android:text="@string/serialnum"
+                    android:textSize="18dp" />
+
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/serial_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/username"
+                    android:layout_toRightOf="@+id/serialnumber"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/serial_value"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/frameid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/serialnumber"
+                    android:text="@string/frame"
+                    android:textSize="18dp" />
+
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/frame_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/serialnumber"
+                    android:layout_toRightOf="@+id/frameid"
+                    android:text="@string/frame_value"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativ_name"
+                android:layout_marginTop="20dp">
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/firmware"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/firmware"
+                    android:textSize="18dp" />
+
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/firmware_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/firmware"
+                    android:text="@string/firm_value"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/system"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/firmware"
+                    android:text="@string/system"
+                    android:textSize="18dp" />
+
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/system_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/firmware"
+                    android:layout_toRightOf="@+id/system"
+                    android:text="@string/system_value"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/application"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/system"
+                    android:text="@string/application"
+                    android:textSize="18dp" />
+
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/application_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/system"
+                    android:layout_toRightOf="@+id/application"
+                    android:text="@string/application_value"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/fccid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/application"
+                    android:text="@string/fccid"
+                    android:textSize="18dp" />
+
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/fccid_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/application"
+                    android:layout_toRightOf="@+id/fccid"
+                    android:text="@string/fccid_value"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativ_name"
+                android:layout_marginTop="20dp">
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/ipaddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ipadress"
+                    android:textSize="18dp" />
+
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/ipadres_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/ipaddress"
+                    android:text="@string/ipadress_value"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/macadress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ipaddress"
+                    android:text="@string/macadress"
+                    android:textSize="18dp" />
+
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/macadress_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ipaddress"
+                    android:layout_toRightOf="@+id/macadress"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/macadress_value"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/download"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/macadress"
+                    android:text="@string/download"
+                    android:textSize="18dp" />
+
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/dow_value_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/macadress"
+                    android:layout_toRightOf="@+id/download"
+                    android:text="@string/download_value"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_back">
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/text_data"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/colorBrown"
+                    android:gravity="center"
+                    android:text="@string/datafilled"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="This device compiles with part 15 of the FCC rules.Operation is subjected to the following conditions"
+                    android:textSize="15dp" />
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/rule1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/note"
+                    android:text="@string/ruleone"
+                    android:textSize="15dp" />
+
+                <com.example.wave.receiver.Fonts.TextViewFontStyle
+                    android:id="@+id/rule2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rule1"
+                    android:text="@string/ruletwo"
+                    android:textSize="15dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

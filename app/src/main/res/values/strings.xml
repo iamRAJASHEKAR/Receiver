@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Receiver</string>
+    <string name="visit_url1">Visit www.aaro.com/setup to setup your </string>
+    <string name="visit_Url2">family using the serial number</string>
+    <string name="desc">TODO</string>
+    <string name="selectwifi">Please select your WiFi network</string>
+    <string name="playback">Playback mode</string>
+    <string name="name">Name :</string>
+    <string name="name_value">Vedas</string>
+    <string name="location">Location :</string>
+    <string name="location_value">Anantapur</string>
+    <string name="model">Model :</string>
+    <string name="model_value">Seed 7(W07A)</string>
+    <string name="Username">Username :</string>
+    <string name="user_value">vedas@aa...</string>
+    <string name="serialnum">Serial Number :</string>
+    <string name="serial_value">779545185845623515</string>
+    <string name="frame">Frame ID :</string>
+    <string name="frame_value">659efdgh...</string>
+    <string name="fccid_value">RBD-W0123</string>
+    <string name="firmware">Firmware :</string>
+    <string name="firm_value">63.5</string>
+    <string name="system">System :</string>
+    <string name="system_value">V1.0</string>
+    <string name="application">Application :</string>
+    <string name="application_value">6.1.0</string>
+    <string name="fccid">FCC ID :</string>
+    <string name="ipadress">IP Address</string>
+    <string name="ipadress_value">193.12.13.1</string>
+    <string name="macadress">MAC Address :</string>
+    <string name="macadress_value">54.5a.55...</string>
+    <string name="download">Download queue count</string>
+    <string name="download_value">:0</string>
+    <string name="datafilled">99% free of 6 GB</string>
+    <string name="ruleone">1.This device may not cause harmful interference, and</string>
+    <string name="ruletwo">2.This device must accept terms of services</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="transaction">Transaction Time</string>
+    <string name="showclock">Show Clock</string>
+    <string name="Connection">Show Connectivity Status</string>
+    <string name="releasenote">AARO  releases Software </string>
+    <string name="releaseup">updates regularly: </string>
+    <string name="releasenotebut">Click \"Check for Updates\" </string>
+    <string name="releasenocon">to check for new updates. </string>
+    <string name="releasenet">This only works with active</string>
+    <string name="congrats">Congratulations!</string>
+    <string name="checkforupdate">Checking for software update...</string>
+    <string name="unpair_device">Your unpaired</string>
+    <string name="unpair_this_device_text">Unpaired mama</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

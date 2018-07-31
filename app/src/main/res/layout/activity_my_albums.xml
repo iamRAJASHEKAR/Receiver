@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wave.receiver.Activities.MyAlbums">
+
+
+    <LinearLayout
+        android:id="@+id/Albums"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <com.example.wave.receiver.Fonts.ButtonFontStyle
+            android:id="@+id/images"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Images"
+            android:textAllCaps="false"
+            android:textColor="#0c7868"
+            android:textSize="25dp" />
+
+        <com.example.wave.receiver.Fonts.ButtonFontStyle
+            android:id="@+id/videos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Videos"
+            android:textAllCaps="false"
+            android:textColor="#0c7868"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <GridView
+            android:id="@+id/gridview_my_photos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="100dp"
+            android:gravity="center"
+            android:minHeight="90dp"
+            android:numColumns="3"
+            android:stretchMode="columnWidth" />
+        <!--<GridView
+            android:id="@+id/gridview_my_photos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:columnWidth="100dp"
+            android:drawSelectorOnTop="true"
+            android:gravity="center"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp"
+            android:focusable="true"
+            />
+-->
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>

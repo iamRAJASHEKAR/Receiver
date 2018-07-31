@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "105189358448",
+    "firebase_url": "https://aaro-86a3e.firebaseio.com",
+    "project_id": "aaro-86a3e",
+    "storage_bucket": "aaro-86a3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105189358448:android:82120e003c22c8f5",
+        "android_client_info": {
+          "package_name": "com.example.wave.aaro.receiver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105189358448-6j10va9td8ib0ic2eiuis2hi9fqhqq4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk1rApeI5Gn3Cd0A-o8D13aVqoyhqKJFU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

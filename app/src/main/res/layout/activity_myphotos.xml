@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:background="@color/black"
+    tools:context="com.example.wave.receiver.Activities.Myphotos">
+
+    <com.example.wave.receiver.Activities.ViewPagerCustomDuration
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+
+    <ImageView
+        android:id="@+id/grid_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

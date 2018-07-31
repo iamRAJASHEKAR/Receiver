@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relate_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <com.example.wave.receiver.Fonts.TextViewFontStyle
+                android:id="@+id/unpair_alerttitle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="Failed"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="22sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relate_msg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/relate_text">
+
+            <com.example.wave.receiver.Fonts.TextViewFontStyle
+                android:id="@+id/unpair_alerttext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Failed to Register"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relate_one"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/relate_msg"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_square"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.example.wave.receiver.Fonts.TextViewFontStyle
+                android:id="@+id/alertbutton_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Try Again"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

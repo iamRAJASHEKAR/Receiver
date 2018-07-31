@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.wave.receiver.Fragments.Softwareupdate">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/updatenote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/releasenote"
+            android:textSize="18dp" />
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/releseup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/updatenote"
+            android:layout_centerHorizontal="true"
+            android:text="@string/releaseup"
+            android:textSize="18dp" />
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/updatenotetwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/releseup"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/releasenotebut"
+            android:textSize="18dp" />
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/note_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/updatenotetwo"
+            android:layout_centerHorizontal="true"
+            android:text="@string/releasenocon"
+            android:textSize="18sp" />
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/updatenet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/note_continue"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/releasenet"
+            android:textSize="18dp" />
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/relesenet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/updatenet"
+            android:layout_centerHorizontal="true"
+            android:text="Internet."
+            android:textSize="18dp" />
+
+        <com.example.wave.receiver.Fonts.ButtonFontStyle
+            android:id="@+id/btn_updates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relesenet"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonback"
+            android:text="Check for Update"
+            
+            android:textAllCaps="false" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+    <com.example.wave.receiver.Fonts.TextViewFontStyle
+        android:id="@+id/text_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Connect"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <com.example.wave.receiver.Fonts.TextViewFontStyle
+        android:id="@+id/textViewSecurity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_connect"
+        android:ems="10" />
+
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_below="@id/textview1"
+        android:layout_marginTop="30dp"
+        android:background="#26343c"
+        android:layout_height="1dp"/>-->
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/textViewSecurity"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="2">
+
+        <com.example.wave.receiver.Fonts.ButtonFontStyle
+            android:id="@+id/btn_cancel"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_square"
+            android:text="Cancel"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <com.example.wave.receiver.Fonts.TextViewFontStyle
+            android:id="@+id/textView2"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+
+        <com.example.wave.receiver.Fonts.ButtonFontStyle
+            android:id="@+id/btn_connecct"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@color/colorBrown"
+            android:text="Connect"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>
